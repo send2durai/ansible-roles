@@ -1,0 +1,5 @@
+---
+- name: Enable httpd service
+  systemd:
+    name: httpd
+    enabled: yes
